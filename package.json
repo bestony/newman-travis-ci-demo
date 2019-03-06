@@ -1,0 +1,15 @@
+{
+  "name": "newman-travis-ci-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run tests/demo.postman_collection.json"
+  },
+  "keywords": [],
+  "author": "Bestony <best.tony@foxmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^4.4.0"
+  }
+}
